@@ -357,7 +357,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 02c828f75e270754db6b763574d05654, type: 2}
     - target: {fileID: 9500000, guid: f12f2d44b2688054986e54861cc211dc, type: 3}
       propertyPath: m_UpdateMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: f12f2d44b2688054986e54861cc211dc, type: 3}
       propertyPath: m_ApplyRootMotion
@@ -540,7 +540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f12f2d44b2688054986e54861cc211dc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.04
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f12f2d44b2688054986e54861cc211dc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -890,11 +890,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13981ecc809f14169a682c7d1beb85be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 10
-  target: {fileID: 0}
-  CameraTransform: {fileID: 0}
-  SpeedTreeWindAsset: 5
-  rb: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
